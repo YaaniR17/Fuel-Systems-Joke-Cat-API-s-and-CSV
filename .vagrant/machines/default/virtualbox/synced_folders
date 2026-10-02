@@ -1,0 +1,1 @@
+{"virtualbox":{"/shared":{"guestpath":"/shared","hostpath":"C:/Users/ayaans/Vagrant Machines/server_project/shared","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/ayaans/Vagrant Machines/server_project","disabled":false,"__vagrantfile":true}}}
