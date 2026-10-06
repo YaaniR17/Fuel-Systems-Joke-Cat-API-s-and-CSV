@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors'); // 1. Import CORS
 const path = require('path');
 
-const indexRouter = require('./routes/indexRouter'); 
+//const indexRouter = require('./routes/indexRouter'); 
 
 const app = express();
 
@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 
 const PORT = process.env.PORT || 8080;
 
-app.use('/', indexRouter);
+//app.use('/', indexRouter);
 
 app.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '404.html'));
